@@ -18,4 +18,8 @@ public class Cinema {
             room.showSession();
         }
     }
+
+    public String getCityName() {
+        return cityName;
+    }
 }
