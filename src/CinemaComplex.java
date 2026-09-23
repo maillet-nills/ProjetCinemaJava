@@ -8,7 +8,15 @@ public class CinemaComplex {
         this.cinemaList = cinemaList;
     }
 
+    public void showSessions(){
+        getSessions();
+    }
 
+    private void getSessions(){
+        for (Cinema cinema : cinemaList){
+            cinema.getSessions();
+        }
+    }
 
     public void addCinema(Cinema cinema){
         this.cinemaList.add(cinema);
