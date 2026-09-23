@@ -11,4 +11,10 @@ public class Room {
         this.seatTotal = seatTotal;
         this.sessionList = sessionList;
     }
+
+
+    public void addSession(Session session){
+        this.sessionList.add(session);
+    }
+
 }
