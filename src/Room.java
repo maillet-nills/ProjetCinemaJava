@@ -23,6 +23,10 @@ public class Room {
         }
     }
 
+    public int getSeatTotal() {
+        return seatTotal;
+    }
+
     public int getNumber() {
         return number;
     }
