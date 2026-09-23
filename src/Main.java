@@ -35,14 +35,29 @@ void main() {
             "Zach Cregger",
             Duration.ofHours(1).plusMinutes(34)
     );
+    Movie movie3= new Movie(
+            "Cars",
+            "John Lasseter",
+            Duration.ofHours(1).plusMinutes(56)
+    );
+
+    Movie movie4= new Movie(
+            "F1 Movie",
+            "Joseph Kosinski",
+            Duration.ofHours(2).plusMinutes(35)
+    );
+
 
     Session session1 = new Session(movie1, muretR1);
     Session session2 = new Session(movie2, muretR2);
+    Session session3 = new Session(movie3, toulouseR1);
+    Session session4 = new Session(movie4, toulouseR2);
 
-    toulouseR1.addSession(session2);
-    toulouseR2.addSession(session1);
     muretR1.addSession(session1);
     muretR2.addSession(session2);
+    toulouseR1.addSession(session3);
+    toulouseR2.addSession(session4);
+
 
     patheCinemaComplex.showSessions();
 
