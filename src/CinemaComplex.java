@@ -7,4 +7,10 @@ public class CinemaComplex {
     public CinemaComplex(ArrayList<Cinema> cinemaList) {
         this.cinemaList = cinemaList;
     }
+
+
+
+    public void addCinema(Cinema cinema){
+        this.cinemaList.add(cinema);
+    }
 }

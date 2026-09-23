@@ -8,4 +8,8 @@ public class Cinema {
         this.cityName = cityName;
         this.roomList = roomList;
     }
+
+    public void addRoom(Room room){
+        this.roomList.add(room);
+    }
 }
