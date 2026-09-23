@@ -12,4 +12,10 @@ public class Cinema {
     public void addRoom(Room room){
         this.roomList.add(room);
     }
+
+    public void getSessions(){
+        for (Room room : roomList){
+            room.showSession();
+        }
+    }
 }
