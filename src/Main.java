@@ -61,4 +61,10 @@ void main() {
 
     patheCinemaComplex.showSessions();
 
+
+    session3.reservation(5);
+    session4.reservation();
+    session1.reservation(31);
+    session2.reservation(20);
+    session2.reservation();
 }
