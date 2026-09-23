@@ -9,6 +9,6 @@ public class Session {
     }
 
     public String ToString(){
-        return movie.getTitle() + " - " + room.getNumber();
+        return movie.getTitle() + " - Salle " + room.getNumber();
     }
 }
