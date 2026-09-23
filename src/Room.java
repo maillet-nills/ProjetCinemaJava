@@ -17,4 +17,13 @@ public class Room {
         this.sessionList.add(session);
     }
 
+    public void showSession(){
+        for(Session session : sessionList){
+            System.out.println(session.ToString());
+        }
+    }
+
+    public int getNumber() {
+        return number;
+    }
 }
