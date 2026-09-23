@@ -14,7 +14,9 @@ public class CinemaComplex {
 
     private void getSessions(){
         for (Cinema cinema : cinemaList){
+            System.out.println("### " + cinema.getCityName() + " ###");
             cinema.getSessions();
+            System.out.println("");
         }
     }
 
