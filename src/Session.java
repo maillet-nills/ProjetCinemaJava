@@ -7,4 +7,8 @@ public class Session {
         this.movie = movie;
         this.room = room;
     }
+
+    public String ToString(){
+        return movie.getTitle() + " - " + room.getNumber();
+    }
 }
