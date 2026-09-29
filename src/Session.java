@@ -33,4 +33,11 @@ public class Session {
         }
     }
 
+    public double getCompletionRate(){
+        int reservedSeat = room.getSeatTotal() - seatTotal;
+        double rate = (double) reservedSeat / room.getSeatTotal();
+        System.out.println("Taux de remplissage de "+ ToString()+" : " + rate);
+        return rate;
+
+    }
 }

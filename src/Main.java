@@ -67,4 +67,7 @@ void main() {
     session1.reservation(31);
     session2.reservation(20);
     session2.reservation();
+
+    session3.getCompletionRate();
+    session2.getCompletionRate();
 }
